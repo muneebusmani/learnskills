@@ -1,0 +1,67 @@
+@media only screen and (max-width:992px) {
+    html{
+       font-size: 90%;
+    }   
+    .padding-block-900{
+       padding: var(--size-800);
+    }
+    .padding-block-700{
+       padding: var(--size-600);
+    }
+   }
+   @media only screen and (max-width:768px) {
+    html{
+       font-size: 80%;
+    }   
+    .padding-block-900{
+       padding: var(--size-600);
+    }
+    .padding-block-700{
+       padding: var(--size-400);
+   }
+   }
+   @media only screen and (max-width: 576px) {
+   .padding-left-right{
+       padding: 0rem 2rem;
+   }
+    }
+   @media only screen and (max-width: 478px) {
+   .padding-left-right{
+       padding: 0rem 1.5rem;
+   }
+   }
+   @media only screen and (max-width: 380px) {
+   .padding-left-right{
+       padding: 0rem 1rem;
+   }  
+   .button-blue-line{
+      background: none;
+      text-decoration: none;
+      cursor: pointer;
+      border: 0;
+      border-radius: 3px;
+      padding: 1rem 2rem;
+      border: 2px solid var(--clr-button-200);
+      color: var(--clr-text-100);
+      font-size: var(--fs-button);
+      font-weight: 500;
+      line-height: 1;
+  }
+.button{
+      text-decoration: none;
+      cursor: pointer;
+      border: 0;
+      border-radius: 3px;
+      padding: 1rem 2rem;
+      background: var(--clr-button-100);
+      color: var(--clr-text-100);
+      font-size: var(--fs-button);
+      font-weight: 500;
+      line-height: 1;
+}
+}
+   @media only screen and (max-width: 200px) {
+   .padding-left-right{
+       padding: 0rem;
+   }
+   }
