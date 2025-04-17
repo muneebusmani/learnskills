@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/muneebusmani/learnskills-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/muneebusmani/learnskills-frontend.git
